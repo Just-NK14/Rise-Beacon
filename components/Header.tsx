@@ -7,7 +7,7 @@ import { Button } from "./ui/button"
 import { Menu, Coins, Leaf, Search, Bell, User, ChevronDown, LogIn, LogOut } from "lucide-react"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu"
 import { Badge } from "./ui/badge"
-
+ 
 import { Web3Auth } from "@web3auth/modal"
 import { CHAIN_NAMESPACES, IProvider, WEB3AUTH_NETWORK } from "@web3auth/base"
 import { EthereumPrivateKeyProvider } from "@web3auth/ethereum-provider"

@@ -38,6 +38,7 @@ export const VolunteerOpportunities = pgTable("volunteer_opportunities", {
     organizationId: integer("organization_id").references(() => Organizations.id).notNull(),
     title: varchar("title", { length: 255 }).notNull(),
     description: text("description").notNull(),
+    minAge: integer('min_age').notNull().default(13),
     location: text("location"),
     startDate: timestamp("start_date"),
     endDate: timestamp("end_date"),
