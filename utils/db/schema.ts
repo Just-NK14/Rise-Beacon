@@ -93,4 +93,4 @@ export const usersRelations = relations(Users, ({ one }) => ({
     school: one(Schools, { fields: [Users.schoolId], references: [Schools.id] }),
 }));
 
-//Aniket
+//Aniket is gay
